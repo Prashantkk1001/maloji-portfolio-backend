@@ -17,6 +17,7 @@ const __dirname = path.dirname(__filename);
 const allowedOrigins = [
   "http://localhost:5173",
   "https://maloji-portfolio-frontend.vercel.app"
+  "https://maloji-portfolio-backend.onrender.com"
 ];
 
 app.use(
@@ -86,7 +87,7 @@ app.get("/api/portfolio", (req, res) => {
         id: 2,
         title: "Agriculture Dashboard (Power BI)",
         type: "Mini Project",
-        image: "https://maloji-portfolio-backend.onrender.com/Agriculuredasbored.jpeg"
+        image: "https://maloji-portfolio-backend.onrender.com/images/Agriculuredasbored.jpeg"
       },
       {
         id: 3,
